@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Des experts en installation de vitres pour portes et fenêtres et en nouvelles technologies en aluminium</title>
+    <meta name="description" content="Spécialistes en installation de vitres pour portes et fenêtres en aluminium. Qualité et durabilité garanties. Contactez-nous dès maintenant !">
+    <meta name="keywords" content="installation vitre, fenêtre aluminium, portes en verre, vitrerie sur mesure, entreprise vitrerie">
+    <link rel="canonical" href="https://www.FrameTech.com/landing-page">
+    <meta property="og:title" content="FrameTech - Installation en aluminium durable et moderne">
+    <meta property="og:description" content="Votre partenaire de confiance pour des fenêtres et portes en aluminium sur mesure.">
+    <meta property="og:image" content="https://www.FrameTech.com/images/logo.jpg">
+    <meta property="og:url" content="https://www.FrameTech.com/landing-page">
+    <meta property="og:type" content="website">
+    <link rel="icon" type="image/png" href="/images/logo.jpg">
+    <link rel="stylesheet" href="style.css">
+    <style>
+  /* Couleurs personnalisées */  
+        :root {  
+            --gris: #707070; /* Gris représentant les vitres */  
+            --bleu-nuit: #1A1A3E; /* Bleu nuit */  
+            --noir-sombre: #0F0F0F; /* Noir sombre */  
+            --blanc: #FFFFFF;  
+        }  
+  
+        body {  
+            font-family: Arial, sans-serif;  
+            background-color: var(--noir-sombre);  
+            color: var(--blanc);  
+            margin: 0;  
+            padding: 0;  
+        }  
+  /* ======= En-tête ======= */
+header {  
+    background-color: var(--bleu-nuit);  
+    padding: 20px 0;  
+    border-bottom: 3px solid var(--gris);  
+}  
+  
+header .container {  
+    display: flex;  
+    flex-direction: column;  /* Empile les éléments, mais garde les autres ajustements */
+    align-items: center;     /* Centre les éléments */
+    max-width: 1200px;  
+    margin: 0 auto;  
+}  
+  
+header h1 a {  
+    text-decoration: none;  
+    color: var(--blanc);  
+    font-size: 2em;  
+    font-weight: bold;  
+    text-transform: uppercase;  
+    margin-bottom: 20px;  /* Ajout d'un espace entre le titre et le menu */
+}  
+  
+nav ul {  
+    list-style: none;  
+    display: flex;    /* Menu horizontal */
+    padding: 0;  
+    text-align: center;  
+}  
+  
+nav ul li {  
+    margin: 0 15px;  /* Espace horizontal entre les éléments du menu */
+}  
+  
+nav ul li a {  
+    text-decoration: none;  
+    color: var(--blanc);  
+    font-size: 1.2em;  
+    font-weight: bold;  
+}  
+  
+nav ul li a:hover {  
+    color: var(--gris);  
+}
+  
+        /* ======= Section Héros ======= */  
+        .hero {  
+            background: linear-gradient(135deg, var(--gris), var(--bleu-nuit));  
+            padding: 50px 20px;  
+            text-align: center;  
+        }  
+  
+        .hero h2 {  
+            font-size: 2.5em;  
+            margin-bottom: 20px;  
+        }  
+  
+        .hero p {  
+            font-size: 1.2em;  
+            margin-bottom: 30px;  
+        }  
+  
+        .hero .btn {  
+            padding: 15px 30px;  
+            background-color: var(--gris);  
+            color: var(--noir-sombre);  
+            text-decoration: none;  
+            font-size: 1.1em;  
+            font-weight: bold;  
+            border-radius: 5px;  
+        }  
+  
+        .hero .btn:hover {  
+            background-color: var(--bleu-nuit);  
+            color: var(--blanc);  
+        }  
+  
+        /* ======= Section À Propos ======= */  
+        .about {  
+            padding: 60px 20px;  
+            background-color: var(--gris);  
+            text-align: center;  
+        }  
+  
+        .about h2 {  
+            font-size: 2em;  
+            color: var(--bleu-nuit);  
+            margin-bottom: 20px;  
+        }  
+  
+        /* ======= Section Services ======= */  
+        .services {  
+            padding: 60px 20px;  
+            background-color: var(--noir-sombre);  
+        }  
+  
+        .services h2 {  
+            font-size: 2em;  
+            color: var(--gris);  
+            margin-bottom: 40px;  
+            text-align: center;  
+        }  
+  
+        .service-list {  
+            display: flex;  
+            justify-content: space-between;  
+            flex-wrap: wrap;  
+            gap: 30px;  
+        }  
+  
+        .service {  
+            background-color: var(--bleu-nuit);  
+            color: var(--blanc);  
+            padding: 20px;  
+            border-radius: 10px;  
+            flex: 1;  
+            min-width: 300px;  
+            text-align: center;  
+        }  
+  
+        .service h3 {  
+            font-size: 1.5em;  
+            margin-bottom: 10px;  
+        }  
+  
+        /* ======= Section Vidéos ======= */  
+        .videos {  
+            padding: 60px 20px;  
+            background-color: var(--gris);  
+        }  
+  
+        .videos iframe {  
+            width: 100%;  
+            max-width: 600px;  
+            height: 315px;  
+            margin: 10px;  
+            border: none;  
+            border-radius: 10px;  
+        }  
+  
+        /* ======= Section Galerie ======= */  
+        .gallery {  
+            padding: 60px 20px;  
+            background-color: var(--noir-sombre);  
+        }  
+  
+        .gallery img {  
+            width: 100%;  
+            max-width: 350px;  
+            margin: 15px;  
+            border-radius: 10px;  
+        }  
+  
+        /* ======= Section Contact ======= */  
+        .contact {  
+            padding: 60px 20px;  
+            background-color: var(--gris);  
+            text-align: center;  
+        }  
+  
+        .contact h2 {  
+            font-size: 2em;  
+            color: var(--bleu-nuit);  
+            margin-bottom: 20px;  
+        }  
+  
+        .contact form {  
+            max-width: 600px;  
+            margin: 0 auto;  
+            display: flex;  
+            flex-direction: column;  
+        }  
+  
+        .contact input, .contact textarea {  
+            padding: 10px;  
+            margin: 10px 0;  
+            border-radius: 5px;  
+            border: 2px solid var(--bleu-nuit);  
+            background-color: var(--blanc);  
+        }  
+  
+        .contact button {  
+            padding: 15px;  
+            background-color: var(--bleu-nuit);  
+            color: var(--blanc);  
+            border: none;  
+            border-radius: 5px;  
+            font-size: 1.2em;  
+            cursor: pointer;  
+        }  
+  
+        .contact button:hover {  
+            background-color: var(--gris);  
+        }  
+  
+        /* ======= Pied de Page ======= */  
+        footer {  
+            background-color: var(--bleu-nuit);  
+            padding: 20px;  
+            color: var(--blanc);  
+            text-align: center;  
+        }  
+  
+        footer p {  
+            margin-bottom: 10px;  
+        }  
+  
+        footer ul {  
+            list-style: none;  
+            display: flex;  
+            justify-content: center;  
+            gap: 20px;  
+        }  
+  
+        footer ul li a {  
+            color: var(--blanc);  
+            text-decoration: none;  
+            font-weight: bold;  
+        }  
+  
+        footer ul li a:hover {  
+            color: var(--gris);  
+        }  
+        /* ======= Adaptabilité pour les grands écrans ======= */  
+        @media (min-width: 768px) {  
+            .hero h2 {  
+                font-size: 3em;  
+            }  
+  
+            .hero .btn {  
+                font-size: 1.5em;  
+            }  
+  
+            .services .service-list {  
+                gap: 50px;  
+            }  
+  
+            .contact form {  
+                flex-direction: row;  
+                gap: 20px;  
+            }  
+  
+            .contact input, .contact textarea {  
+                flex: 1;  
+            }  
+  
+            .contact button {  
+                flex: none;  
+            }  
+  
+            footer {  
+                display: flex;  
+                justify-content: space-between;  
+                align-items: center;  
+            }  
+  
+            footer ul {  
+                flex-direction: row;  
+            }  
+        }  
+  
+        @media (min-width: 1200px) {  
+            header .container {  
+                max-width: 1200px;  
+            }  
+  
+            .container {  
+                max-width: 1200px;  
+                margin: 0 auto;  
+            }  
+        }  
+    </style>
+    </head>
+<body>
+    <!-- ======= En-tête du site : Logo + Menu de navigation ======= -->
+    <header>
+        <div class="container">
+            <!-- Nom de l'entreprise en tant que lien vers l'accueil -->
+            <h1><a href="index.html">FrameTech</a></h1>
+            <!-- Menu de navigation vers les sections importantes -->
+            <nav>
+                <ul>
+                    <li><a href="#services">Nos Services</a></li>
+                    <li><a href="#about">À Propos</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header><main>
+    <!-- ======= Section Héros : Accroche + Bouton d'Action ======= -->
+    <section class="hero">
+        <div class="container">
+            <h2>Conception de portes, fenêtres en aluminium et installation de vitres durables, sécurisées et stylisées</h2>
+            <p>Durabilité, esthétique et expertise au service de votre confort.</p>
+            <a href="#contact" class="btn">Demandez un Devis Gratuit</a>
+        </div>
+    </section>
+
+    <!-- ======= Section À Propos : Présentation de l'entreprise ======= -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>Qui sommes-nous ?</h2>
+            <p>Nous sommes une entreprise spécialisée dans l'installation de vitres et de portes en aluminium, opérant dans tout Kinshasa. Avec des années d'expérience, nous garantissons la qualité et la satisfaction.</p>
+        </div>
+    </section>
+
+    <!-- ======= Section Services : Présentation des offres de l'entreprise ======= -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2>Nos Services</h2>
+            <div class="service-list">
+                <div class="service">
+                    <h3>Installation de Fenêtres et Portes en Aluminium</h3>
+                    <p>Des fenêtres et portes modernes, ultra sophistiquées, isolantes et esthétiques.</p>
+                </div>
+                <div class="service">
+                    <h3>Vitrerie pour Portes et Fenêtres</h3>
+                    <p>Remplacement et pose de vitres pour tous types de portes et fenêtres.</p>
+                </div>
+                <div class="service">
+                    <h3>Sur-Mesure & Réparation</h3>
+                    <p>Nous personnalisons et entretenons vos fenêtres et portes selon vos exigences.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ======= Section Vidéos : Présentation des vidéos de l'entreprise ======= -->
+    <section id="videos" class="videos">
+        <div class="container">
+            <h2>Nos Réalisations en Vidéo</h2>
+            <div class="videos">
+                <!-- Ajoute ici les vidéos YouTube ou autres -->
+                <iframe src="https://www.youtube.com/embed/VIDEO_ID_1" allowfullscreen></iframe>
+                <iframe src="https://www.youtube.com/embed/VIDEO_ID_2" allowfullscreen></iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- ======= Section Galerie d'images : Présentation des images de l'entreprise ======= -->
+    <section id="gallery" class="gallery">
+        <div class="container">
+            <h2>Galerie de Nos Travaux</h2>
+            <div class="gallery">
+                <!-- Ajoute ici les images -->
+                <img src="https://www.FrameTech.com/images/work1.jpg" alt="Travail 1">
+                <img src="https://www.FrameTech.com/images/work2.jpg" alt="Travail 2">
+                <img src="https://www.FrameTech.com/images/work3.jpg" alt="Travail 3">
+            </div>
+        </div>
+    </section>
+
+    <!-- ======= Section Témoignages : Avis des clients ======= -->
+    <section class="testimonials">
+        <div class="container">
+            <h2>Ce que disent nos clients</h2>
+            <blockquote>
+                <p>"Service impeccable et produits de qualité !"</p>
+                <cite>— Jean Dupont</cite>
+            </blockquote>
+        </div>
+    </section>
+
+    <!-- ======= Section Contact : Formulaire de contact ======= -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contactez-nous</h2>
+            <form id="contact-form">
+                <label for="name">Nom :</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email :</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message :</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit" id="submit">Envoyer</button>
+            </form>
+        </div>
+    </section>
+</main>
+
+<!-- ======= Pied de Page : Infos légales et contacts ======= -->
+<footer>
+    <section id="contact">
+        <div class="contact-info">
+            <p><b>Pour plus d'info :</b></p>
+            <p>
+                Téléphone :  
+                <a href="https://wa.me/243852715188">
+                    <b>+243 852 715 188</b>
+                </a>  
+                <br><br>
+                Adresse email :  
+                <a href="mailto:kakudjipaul944@gmail.com">
+                    <b>kakudjipaul944@gmail.com</b>
+                </a>
+            </p>
+        </div>
+        <div class="container">
+            <p>© 2025 <b>FrameTech</b> - Tous droits réservés.</p>
+            <ul>
+                <li><a href="#">Mentions Légales</a></li>
+                <li><a href="#">Politique de Confidentialité</a></li>
+            </ul>
+        </div>
+    </section>
+</footer>
+<script type="module">
+    // Importer Firebase avant d'écouter le DOM
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-app.js";
+    import { getDatabase, ref, push, set } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-database.js";
+    import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-analytics.js";
+
+    // Configuration Firebase
+    const firebaseConfig = {
+        apiKey: "AIzaSyBkrEXDsQp4ZfFiMRpecWrwGSelKjoEfbI",
+        authDomain: "landing-page-9b243.firebaseapp.com",
+        databaseURL: "https://landing-page-9b243-default-rtdb.firebaseio.com",
+        projectId: "landing-page-9b243",
+        storageBucket: "landing-page-9b243.firebasestorage.app",
+        messagingSenderId: "452398837687",
+        appId: "1:452398837687:web:8a5528b2991b2b8b398232",
+        measurementId: "G-67BP2CJL8C"
+    };
+
+    // Initialisation de Firebase
+    const app = initializeApp(firebaseConfig);
+    const analytics = getAnalytics(app);
+    const database = getDatabase(app);
+
+    // Afficher "Firebase connecté" dans la console
+    console.log("Firebase connecté");
+
+    // Fonction pour envoyer les données du formulaire
+    document.getElementById("contact-form").addEventListener("submit", function (event) {
+        event.preventDefault();
+
+        const name = document.getElementById("name").value.trim();
+        const email = document.getElementById("email").value.trim();
+        const message = document.getElementById("message").value.trim();
+
+        // Validation des champs
+        const emailPattern = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,6}$/;
+        if (!name || !email || !message) {
+            alert("Veuillez remplir tous les champs !");
+            return;
+        } else if (!emailPattern.test(email)) {
+            alert("Veuillez entrer une adresse email valide !");
+            return;
+        }
+
+        // Référence Firebase
+        const messagesRef = ref(database, "messages");
+        const newMessageRef = push(messagesRef);
+
+        // Enregistrement des données dans Firebase
+        set(newMessageRef, {
+            name: name,
+            email: email,
+            message: message,
+            date: new Date().toISOString()
+        }).then(() => {
+            alert("Message envoyé avec succès !");
+            document.getElementById("contact-form").reset();
+        }).catch((error) => {
+            console.error("Erreur Firebase:", error); // Affiche l'erreur dans la console
+            alert("Erreur lors de l'envoi du message : " + error.message);
+        });
+    });
+</script>
+</body>
+</html>
